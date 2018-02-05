@@ -7,3 +7,13 @@
     width: 1000px;
     height: 1000px;
 }
+
+.flex-item {
+    width: 400px;
+    height: 1000px;
+}
+
+.flex-item-2 {
+    width: 400px;
+    height: 250px;
+}
