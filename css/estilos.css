@@ -13,16 +13,24 @@
 .flex-item {
     width: 400px;
     height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .flex-item-2 {
     width: 400px;
     height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .perfil {
     width: 200px;
-    height: 200px
+    height: 200px;
     border-radius: 50%;
     align-items: center;
 }
