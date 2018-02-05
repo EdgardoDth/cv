@@ -8,6 +8,7 @@
     height: 1000px;
     background: #42b3f4;
     margin: auto;
+    display: flex;
 }
 
 .flex-item {
@@ -17,6 +18,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+.flex-item:nth-child(2) {
+    width: 600px;
+    height: 1000px;
+    background: #f2f2f2;
 }
 
 .flex-item-2 {
