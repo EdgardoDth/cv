@@ -21,7 +21,7 @@
 }
 
 .flex-item:nth-child(2) {
-    width: 600px;
+    width: 630px;
     height: 1000px;
     background: #f2f2f2;
 }
@@ -42,6 +42,21 @@
     align-items: flex-end;
 }
 
+.flex-item-3 {
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.flex-item-3-1 {
+    width: 600px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
 .perfil {
     width: 200px;
     height: 200px;
@@ -53,4 +68,17 @@
     text-align: center;
     color: white;
     font-family: hack;
+    font-size: 18px;
+}
+
+.subtitulo {
+    color: #42b3f4;
+    font-family: hack;
+    font-size: 20px;
+}
+
+.parrafo {
+    margin-right: 20px;
+    font-family: hack;
+    font-size: 18px;
 }
