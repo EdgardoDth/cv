@@ -2,3 +2,8 @@
  * Css usado para agregar estilos a mi CV
  *
  */
+
+.flex-container {
+    width: 1000px;
+    height: 1000px;
+}
