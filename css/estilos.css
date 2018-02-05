@@ -7,6 +7,7 @@
     width: 1000px;
     height: 1000px;
     background: #42b3f4;
+    margin: auto;
 }
 
 .flex-item {
@@ -17,4 +18,11 @@
 .flex-item-2 {
     width: 400px;
     height: 250px;
+}
+
+.perfil {
+    width: 200px;
+    height: 200px
+    border-radius: 50%;
+    align-items: center;
 }
