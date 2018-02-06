@@ -61,7 +61,7 @@
     display: flex;
     flex-direction:  row;
 }
-.perfil {
+#perfil {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -76,6 +76,7 @@
 }
 
 .subtitulo {
+    border-bottom: 4px solid white;
     color: #42b3f4;
     font-family: hack;
     font-size: 20px;
